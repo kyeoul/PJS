@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="gaming.css">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    </head>
+    
+    <body>
+                <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+              <div class="modal-content" id="modal-content">
+                <div class="modal-header">
+                  <span class="close">&times;</span>
+                  <h3 id="header-text">Correct!</h3>
+                </div>
+                <div class="modal-body">
+                    <span style="font-size: 100px; color: white;" id="modal-image">&#10003;</span>
+                    <h4 id="personEliminated">You have just eliminated ...</h4>
+                </div>
+              </div>
+
+        </div>
+
+        <div class="container">
+            <header>
+                <div class="identity-container">
+                    <h2 id="personal-id">
+                        Your Identity: 
+                    </h2>
+                </div>
+    
+            </header>
+    
+            <section class="guess-container">
+                <div class="padding-container">
+                    <div class="card-container" id="card-container">
+                        <div>
+                            <h2 id="guess-person">
+                            You are guessing -person-'s identity.
+                            </h2>
+                        </div>
+    
+                        <div class="input-container" id="input-container">
+                            <label for="identity">Guess: </label>
+                            <input type="text" id="guessIdentity" placeholder="Who is this person's identity?">
+                        </div>
+    
+                        <button class="submit" id="guessButton">Submit</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="choice-container">
+                <div class="button-container">
+                    <button class="choice-button" id="player1">
+                        player1
+                    </button>
+                </div>
+
+                <div class="button-container">
+                    <button class="choice-button" id="player2">
+                        player2
+                    </button>
+                </div>
+
+                <div class="button-container">
+                    <button class="choice-button" id="player3">
+                        player3
+                    </button>
+                </div>
+
+                <div class="button-container">
+                    <button class="choice-button" id="player4">
+                        player4
+                    </button>
+                </div>
+
+                <div class="button-container">
+                    <button class="choice-button" id="player5">
+                        player5
+                    </button>
+                </div>
+
+                <div class="button-container">
+                    <button class="choice-button" id="player6">
+                        player6
+                    </button>
+                </div>
+
+                <div class="button-container">
+                    <button class="choice-button" id="player7">
+                        player7
+                    </button>
+                </div>
+
+            </section>
+        </div>
+
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+             https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-firestore.js"></script>
+
+        <script>
+          // Your web app's Firebase configuration
+          var firebaseConfig = {
+            apiKey: "AIzaSyAXhGIqsL1T_9E74L7ag9Vz_EYbsZLwzJY",
+            authDomain: "pathetic-jumping-squirrels.firebaseapp.com",
+            databaseURL: "https://pathetic-jumping-squirrels.firebaseio.com",
+            projectId: "pathetic-jumping-squirrels",
+            storageBucket: "pathetic-jumping-squirrels.appspot.com",
+            messagingSenderId: "174322969428",
+            appId: "1:174322969428:web:8a4c32542cf9c79a3976c1",
+            measurementId: "G-C1X5LGX5SQ"
+          };
+          // Initialize Firebase
+          firebase.initializeApp(firebaseConfig);
+          firebase.analytics();
+        </script>
+
+        <script src="gaming.js"></script>
+    </body>
+</html>

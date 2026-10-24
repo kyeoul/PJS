@@ -1,0 +1,52 @@
+Instructions:
+
+Welcome to PJs! We bring you a competitive activity inspired by 20 Questions that incorporates strategy, suspense, and thrilling gameplay. By allowing up 
+to four players to play at once against each other, trying to guess one another's identities, we've created a game that takes the classic to new heights. 
+The possibilities are endless! Have fun!
+
+Set-up: 
+
+Join a call with your friends. Have one person set up a room on PJs and let everyone join. That's it!
+
+
+Gameplay:
+
+One person asks a YES/NO question to another member in the party. The question's recipient answers the question and proceeds to ask a question themselves. This chain of
+questioning sets the stage for the game. Whenever any player wants, they can guess another player's identity in the PJs interface. They will be informed of the accuracy of
+their guess. However, no one else will know the results of the guess (or the fact that someone guessed in the first place). The game continues until one player whose
+identity has not been discovered remains. All players can ask questions throughout the entirety of the game (even if their identity has already been guessed). The aim
+of the game is to keep track of who you think has been eliminated and who you think still needs to be discovered! 
+
+
+Rules:
+
+1) All questions must be answered honestly. If one does not know the answer to a question, the questioner
+is permitted to ask another question.
+2) No one can disclose the state of another player (whether or not another's identity has been guessed)
+3) Do not over-guess. This can be talked about prior to the game.
+4) Allying is not permitted. All communication must take place in one call.
+5) Each identity must be a person known by all members of the party.
+6) One cannot use the internet.
+7) One cannot keep a log of questions asked.
+
+
+
+About Us:
+
+The team, made up of Pavan Pandurangi, Suyash Tewari, Jihoon Park, 
+
+Pavan Pandurangi:
+
+Pavan is...
+
+Suyash Tewari:
+
+Suyash is 
+
+Jihoon Park:
+
+Jihoon is...
+
+
+
+
